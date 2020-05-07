@@ -8,7 +8,7 @@ body {
 /* Reusable */
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -22,7 +22,6 @@ body {
 
 .page-header {
   background: #bca3ac;
-  /* padding: 0.5em 0; */
   box-shadow: 1px 1px 3px 1px #010b13;
   position: sticky;
   top: 0;
@@ -77,6 +76,11 @@ body {
   color: #fdfffc;
 }
 
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .hero__text {
   width: 50%;
   font-size: 1.5rem;
@@ -94,8 +98,8 @@ body {
 .hero__image {
   border-radius: 5em;
   padding: 1em;
-  width: 40%;
-  height: 40%;
+  width: 20%;
+  height: 20%;
 }
 
 /* Main section */
@@ -112,4 +116,34 @@ body {
   margin-top: 0;
   text-align: center;
   padding-top: 1em;
+  letter-spacing: 0.25rem;
+}
+
+.article {
+  box-shadow: 1px 1px 3px 1px #010b13;
+  margin-bottom: 2em;
+  border-radius: 1em;
+}
+
+.article + .article {
+  margin-left: 2em;
+}
+
+.article__title {
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.article__title-accent {
+  color: #010b13;
+  text-shadow: 2px 1px 0px #ff0000c7;
+}
+
+.article__text {
+  color: #fdfffc;
+  padding: 1em;
+  text-align: center;
+  line-height: 1.25em;
 }
