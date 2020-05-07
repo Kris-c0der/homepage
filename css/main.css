@@ -52,6 +52,7 @@ body {
   text-decoration: none;
   color: #fdfffc;
   text-shadow: 2px 2px 2px #010b13;
+  font-size: 1.5rem;
 }
 
 /* Hero */
@@ -66,21 +67,28 @@ body {
   box-shadow: 1px 1px 3px 1px #010b13;
   margin-top: 1em;
   background: #bca3ac;
+  border-radius: 1em;
 }
 
 .hero__title {
   font-size: 3rem;
   text-align: center;
   margin: 0;
+  color: #fdfffc;
 }
 
 .hero__text {
   width: 50%;
   font-size: 1.5rem;
+  color: #fdfffc;
   padding: 1em;
   text-align: center;
   align-self: center;
   line-height: 1.25em;
+}
+
+.hero__text-accent {
+  color: #010b13;
 }
 
 .hero__image {
@@ -88,4 +96,20 @@ body {
   padding: 1em;
   width: 40%;
   height: 40%;
+}
+
+/* Main section */
+
+.main-section-wrapper {
+  background: #444554;
+}
+
+.main-section {
+  color: #fdfffc;
+}
+
+.main-section__title {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 1em;
 }
