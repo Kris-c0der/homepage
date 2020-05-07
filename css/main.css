@@ -13,6 +13,11 @@ body {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Header */
 
 .page-header {
@@ -32,16 +37,55 @@ body {
 .navigation__logo {
   font-family: "Lobster", cursive;
   font-size: 2rem;
+  letter-spacing: 0.25em;
+  text-shadow: 1px 2px 2px #ff0000c7;
   color: #010b13;
   margin: 0;
   padding: 0.5em 0;
 }
 
+.navigation__logo-accent {
+  color: #fdfffc;
+  text-shadow: 2px 3px 0px #010b13;
+}
 .navigation__link {
   text-decoration: none;
   color: #fdfffc;
+  text-shadow: 2px 2px 2px #010b13;
 }
 
-.logo-accent {
-  color: #fdfffc;
+/* Hero */
+
+.hero-wrapper {
+  background: #d5c7bc;
+  box-shadow: 1px 1px 3px 1px #010b13;
+  padding: 1em 0;
+}
+
+.hero {
+  box-shadow: 1px 1px 3px 1px #010b13;
+  margin-top: 1em;
+  background: #bca3ac;
+}
+
+.hero__title {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+.hero__text {
+  width: 50%;
+  font-size: 1.5rem;
+  padding: 1em;
+  text-align: center;
+  align-self: center;
+  line-height: 1.25em;
+}
+
+.hero__image {
+  border-radius: 5em;
+  padding: 1em;
+  width: 40%;
+  height: 40%;
 }
