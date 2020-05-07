@@ -79,6 +79,10 @@ body {
   color: #fdfffc;
 }
 
+.hero__title span {
+  color: #010b13;
+}
+
 .image-wrapper {
   display: flex;
   justify-content: center;
