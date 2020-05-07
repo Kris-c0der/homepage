@@ -54,6 +54,10 @@ body {
   font-size: 1.5rem;
 }
 
+.navigation__link + .navigation__link {
+  margin-left: 1em;
+}
+
 /* Hero */
 
 .hero-wrapper {
@@ -64,7 +68,6 @@ body {
 
 .hero {
   box-shadow: 1px 1px 3px 1px #010b13;
-  margin-top: 1em;
   background: #bca3ac;
   border-radius: 1em;
 }
@@ -146,4 +149,27 @@ body {
   padding: 1em;
   text-align: center;
   line-height: 1.25em;
+}
+
+/* Footer */
+
+.page-footer {
+  background: #010b13;
+  padding: 0.75em 0;
+}
+
+.page-footer__text {
+  margin: 0;
+  color: #fdfffc;
+  text-shadow: 2px 2px 2px #010b13;
+}
+
+.page-footer__link {
+  text-decoration: none;
+  color: #fdfffc;
+  text-shadow: 2px 2px 2px #010b13;
+}
+
+.page-footer__link + .page-footer__link {
+  margin-left: 1em;
 }

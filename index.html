@@ -11,8 +11,10 @@
     <header class="page-header">
       <nav class="navigation container">
         <p class="navigation__logo"><span class="navigation__logo-accent">Kris </span>Kozak</p>
-        <a href="index.html" class="navigation__link">Home</a>
-        <a href="#" class="navigation__link">Cool stuff</a>
+        <div class="link-wrapper">
+          <a href="index.html" class="navigation__link">Home</a>
+          <a href="#" class="navigation__link">Cool stuff</a>
+        </div>
       </nav>
     </header>
     <main>
@@ -80,12 +82,16 @@
         </section>
       </div>
     </main>
-    <footer class="container">
-      <p>
-        This is a footer text, and here is a copyright symbol ©
-      </p>
-      <a href="#" target="_blank">GitHub</a>
-      <a href="#" target="_blank">LninkedIn</a>
+    <footer class="page-footer">
+      <div class="container row">
+        <p class="page-footer__text">
+          This is a footer text. Here is a copyright symbol ©
+        </p>
+        <div class="link-wrapper">
+          <a href="https://github.com/Kris-c0der" target="_blank" class="page-footer__link">GitHub</a>
+          <a href="https://www.linkedin.com/in/kriskozak/" target="_blank" class="page-footer__link">LninkedIn</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
