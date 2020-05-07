@@ -1,0 +1,10 @@
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .hero__image {
+      width: 300px;
+      height: 300px;
+  }
