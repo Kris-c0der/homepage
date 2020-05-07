@@ -1,10 +1,47 @@
-.container {
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
+/* Generic */
 
-  .hero__image {
-      width: 300px;
-      height: 300px;
-  }
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Reusable */
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.page-header {
+  background: #bca3ac;
+  /* padding: 0.5em 0; */
+  box-shadow: 1px 1px 3px 1px #010b13;
+  position: sticky;
+  top: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__logo {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  color: #010b13;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #fdfffc;
+}
+
+.logo-accent {
+  color: #fdfffc;
+}
