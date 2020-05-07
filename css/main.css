@@ -18,6 +18,12 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+}
+
 /* Header */
 
 .page-header {
